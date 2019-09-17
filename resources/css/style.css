@@ -3,4 +3,36 @@
 body {
     font-family: Verdana;
     Background-color: black;
+    text-align: center;
+}
+
+a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+.flex-container {
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+
+/* Header */
+
+.discover {
+    color: white;
+    font-size: 50px;
+}
+
+/* Main */
+
+.personal {
+    font-weight: 300;
+    font-size: 42px;
+    color: white;
+}
+
+.comment {
+    font-size: 21px;
+    color: gray;
 }
